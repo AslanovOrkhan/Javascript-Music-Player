@@ -10,17 +10,23 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  /* position: relative; */
+  height: 110vh;
 }
 .player {
-  height: 100vh;
+  height: 90vh;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 .wrapper {
   border: 2px solid #fff;
-  padding: 30px;
+  padding: 10px;
   border-radius: 20px;
   backdrop-filter: blur(30px);
   background: rgba(0, 0, 0, 0.588);
