@@ -10,8 +10,10 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  /* position: relative; */
   height: 110vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .player {
   height: 90vh;
@@ -19,10 +21,7 @@ body {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  margin-bottom: 30px;
 }
 .wrapper {
   border: 2px solid #fff;
@@ -39,24 +38,24 @@ body {
 }
 .track-art {
   margin: 25px;
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
   border: 2px solid #fff;
   background-size: cover;
   background-position: center;
   border-radius: 50%;
 }
 .now-playing {
-  font-size: 1rem;
+  font-size: 0.9rem;
   color: #fff;
 }
 .track-name {
-  font-size: 2.5rem;
+  font-size: 2.1rem;
   color: #fff;
 }
 .track-artist {
   margin-top: 5px;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   color: #fff;
 }
 .buttons {
@@ -73,7 +72,7 @@ body {
 .playpause-track,
 .prev-track,
 .random-track {
-  padding: 25px;
+  padding: 15px;
   color: #fff;
 }
 .slider_container {
@@ -153,7 +152,7 @@ p {
 }
 .loader .stroke {
   background: #f1f1f1;
-  height: 150%;
+  height: 100%;
   width: 10px;
   border-radius: 50px;
   margin: 0 5px;
